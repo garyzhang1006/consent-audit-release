@@ -1,0 +1,366 @@
+{
+  "eng_Latn": {
+    "tier": "high",
+    "sampled": 350,
+    "reachable": 272,
+    "reach_rate": 0.7771428571428571,
+    "optout_domains": 127,
+    "optout_rate_domains": 0.46691176470588236,
+    "optout_rate_ci95": [
+      0.40808823529411764,
+      0.5294117647058824
+    ],
+    "optout_rate_docmass": 0.6244902854401535,
+    "optout_rate_tokmass": 0.5872594197151976,
+    "top_blocked_agents": {
+      "ccbot": 111,
+      "bytespider": 105,
+      "gptbot": 104,
+      "claudebot": 99,
+      "applebot-extended": 85,
+      "anthropic-ai": 81,
+      "meta-externalagent": 81,
+      "google-extended": 79
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "deu_Latn": {
+    "tier": "high",
+    "sampled": 350,
+    "reachable": 254,
+    "reach_rate": 0.7257142857142858,
+    "optout_domains": 76,
+    "optout_rate_domains": 0.2992125984251969,
+    "optout_rate_ci95": [
+      0.2440944881889764,
+      0.3543307086614173
+    ],
+    "optout_rate_docmass": 0.5266101078192925,
+    "optout_rate_tokmass": 0.524108317636173,
+    "top_blocked_agents": {
+      "ccbot": 64,
+      "gptbot": 61,
+      "bytespider": 57,
+      "applebot-extended": 55,
+      "claudebot": 53,
+      "meta-externalagent": 46,
+      "google-extended": 45,
+      "diffbot": 38
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "jpn_Jpan": {
+    "tier": "high",
+    "sampled": 350,
+    "reachable": 226,
+    "reach_rate": 0.6457142857142857,
+    "optout_domains": 29,
+    "optout_rate_domains": 0.12831858407079647,
+    "optout_rate_ci95": [
+      0.08849557522123894,
+      0.17256637168141592
+    ],
+    "optout_rate_docmass": 0.2357448264067043,
+    "optout_rate_tokmass": 0.16933042996402006,
+    "top_blocked_agents": {
+      "gptbot": 24,
+      "claudebot": 22,
+      "ccbot": 20,
+      "meta-externalagent": 19,
+      "google-extended": 17,
+      "bytespider": 16,
+      "applebot-extended": 15,
+      "chatgpt-user": 13
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "fra_Latn": {
+    "tier": "high",
+    "sampled": 350,
+    "reachable": 269,
+    "reach_rate": 0.7685714285714286,
+    "optout_domains": 62,
+    "optout_rate_domains": 0.23048327137546468,
+    "optout_rate_ci95": [
+      0.1821561338289963,
+      0.2788104089219331
+    ],
+    "optout_rate_docmass": 0.38586868099941896,
+    "optout_rate_tokmass": 0.2732605527187735,
+    "top_blocked_agents": {
+      "ccbot": 55,
+      "gptbot": 48,
+      "claudebot": 45,
+      "google-extended": 41,
+      "bytespider": 40,
+      "meta-externalagent": 35,
+      "anthropic-ai": 31,
+      "claude-web": 29
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "ind_Latn": {
+    "tier": "mid",
+    "sampled": 350,
+    "reachable": 225,
+    "reach_rate": 0.6428571428571429,
+    "optout_domains": 31,
+    "optout_rate_domains": 0.13777777777777778,
+    "optout_rate_ci95": [
+      0.09333333333333334,
+      0.18666666666666668
+    ],
+    "optout_rate_docmass": 0.15950447513484678,
+    "optout_rate_tokmass": 0.12047264458980354,
+    "top_blocked_agents": {
+      "gptbot": 28,
+      "claudebot": 28,
+      "bytespider": 28,
+      "ccbot": 27,
+      "meta-externalagent": 26,
+      "applebot-extended": 24,
+      "google-extended": 18,
+      "chatgpt-user": 10
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "tur_Latn": {
+    "tier": "mid",
+    "sampled": 350,
+    "reachable": 238,
+    "reach_rate": 0.68,
+    "optout_domains": 26,
+    "optout_rate_domains": 0.1092436974789916,
+    "optout_rate_ci95": [
+      0.07142857142857142,
+      0.14705882352941177
+    ],
+    "optout_rate_docmass": 0.14577736245765682,
+    "optout_rate_tokmass": 0.15476607119210173,
+    "top_blocked_agents": {
+      "gptbot": 25,
+      "claudebot": 22,
+      "ccbot": 21,
+      "google-extended": 19,
+      "bytespider": 19,
+      "applebot-extended": 16,
+      "meta-externalagent": 16,
+      "chatgpt-user": 6
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "vie_Latn": {
+    "tier": "mid",
+    "sampled": 350,
+    "reachable": 213,
+    "reach_rate": 0.6085714285714285,
+    "optout_domains": 17,
+    "optout_rate_domains": 0.07981220657276995,
+    "optout_rate_ci95": [
+      0.046948356807511735,
+      0.11267605633802817
+    ],
+    "optout_rate_docmass": 0.08273742506770532,
+    "optout_rate_tokmass": 0.09699451261878182,
+    "top_blocked_agents": {
+      "gptbot": 16,
+      "ccbot": 15,
+      "google-extended": 15,
+      "claudebot": 15,
+      "bytespider": 15,
+      "applebot-extended": 15,
+      "meta-externalagent": 14,
+      "anthropic-ai": 3
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "tha_Thai": {
+    "tier": "mid",
+    "sampled": 350,
+    "reachable": 214,
+    "reach_rate": 0.6114285714285714,
+    "optout_domains": 27,
+    "optout_rate_domains": 0.1261682242990654,
+    "optout_rate_ci95": [
+      0.08411214953271028,
+      0.17289719626168223
+    ],
+    "optout_rate_docmass": 0.17334708080938266,
+    "optout_rate_tokmass": 0.1341544805420283,
+    "top_blocked_agents": {
+      "gptbot": 23,
+      "ccbot": 23,
+      "google-extended": 23,
+      "bytespider": 23,
+      "meta-externalagent": 23,
+      "claudebot": 22,
+      "applebot-extended": 22,
+      "anthropic-ai": 2
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "swh_Latn": {
+    "tier": "low",
+    "sampled": 350,
+    "reachable": 203,
+    "reach_rate": 0.58,
+    "optout_domains": 11,
+    "optout_rate_domains": 0.054187192118226604,
+    "optout_rate_ci95": [
+      0.024630541871921183,
+      0.08866995073891626
+    ],
+    "optout_rate_docmass": 0.1112436310898231,
+    "optout_rate_tokmass": 0.10291837863442777,
+    "top_blocked_agents": {
+      "gptbot": 11,
+      "claudebot": 11,
+      "ccbot": 10,
+      "google-extended": 10,
+      "bytespider": 10,
+      "applebot-extended": 10,
+      "meta-externalagent": 10,
+      "chatgpt-user": 4
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "sun_Latn": {
+    "tier": "low",
+    "sampled": 350,
+    "reachable": 163,
+    "reach_rate": 0.4657142857142857,
+    "optout_domains": 20,
+    "optout_rate_domains": 0.12269938650306748,
+    "optout_rate_ci95": [
+      0.0736196319018405,
+      0.17791411042944785
+    ],
+    "optout_rate_docmass": 0.08204270583387867,
+    "optout_rate_tokmass": 0.09069984504022753,
+    "top_blocked_agents": {
+      "ccbot": 17,
+      "claudebot": 17,
+      "gptbot": 15,
+      "google-extended": 14,
+      "bytespider": 14,
+      "applebot-extended": 14,
+      "meta-externalagent": 14,
+      "anthropic-ai": 3
+    },
+    "docs_streamed": 106542,
+    "capped": false
+  },
+  "yor_Latn": {
+    "tier": "low",
+    "sampled": 350,
+    "reachable": 151,
+    "reach_rate": 0.43142857142857144,
+    "optout_domains": 17,
+    "optout_rate_domains": 0.11258278145695365,
+    "optout_rate_ci95": [
+      0.06622516556291391,
+      0.16556291390728478
+    ],
+    "optout_rate_docmass": 0.17429227237949502,
+    "optout_rate_tokmass": 0.13546092146106423,
+    "top_blocked_agents": {
+      "ccbot": 15,
+      "claudebot": 15,
+      "google-extended": 13,
+      "bytespider": 13,
+      "gptbot": 12,
+      "applebot-extended": 12,
+      "meta-externalagent": 12,
+      "anthropic-ai": 4
+    },
+    "docs_streamed": 79999,
+    "capped": false
+  },
+  "uig_Arab": {
+    "tier": "low",
+    "sampled": 350,
+    "reachable": 138,
+    "reach_rate": 0.3942857142857143,
+    "optout_domains": 15,
+    "optout_rate_domains": 0.10869565217391304,
+    "optout_rate_ci95": [
+      0.057971014492753624,
+      0.16666666666666666
+    ],
+    "optout_rate_docmass": 0.10764368713875437,
+    "optout_rate_tokmass": 0.132315156020985,
+    "top_blocked_agents": {
+      "gptbot": 14,
+      "ccbot": 13,
+      "google-extended": 13,
+      "claudebot": 13,
+      "bytespider": 13,
+      "applebot-extended": 13,
+      "meta-externalagent": 13,
+      "diffbot": 5
+    },
+    "docs_streamed": 165637,
+    "capped": false
+  },
+  "azj_Latn": {
+    "tier": "mid",
+    "sampled": 350,
+    "reachable": 222,
+    "reach_rate": 0.6342857142857142,
+    "optout_domains": 23,
+    "optout_rate_domains": 0.1036036036036036,
+    "optout_rate_ci95": [
+      0.06756756756756757,
+      0.14414414414414414
+    ],
+    "optout_rate_docmass": 0.10530252037992671,
+    "optout_rate_tokmass": 0.08008608625561699,
+    "top_blocked_agents": {
+      "gptbot": 22,
+      "claudebot": 22,
+      "ccbot": 21,
+      "google-extended": 21,
+      "bytespider": 21,
+      "applebot-extended": 21,
+      "meta-externalagent": 21,
+      "chatgpt-user": 2
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  },
+  "gle_Latn": {
+    "tier": "low",
+    "sampled": 350,
+    "reachable": 202,
+    "reach_rate": 0.5771428571428572,
+    "optout_domains": 21,
+    "optout_rate_domains": 0.10396039603960396,
+    "optout_rate_ci95": [
+      0.06435643564356436,
+      0.1485148514851485
+    ],
+    "optout_rate_docmass": 0.13549172190732378,
+    "optout_rate_tokmass": 0.0950168038988094,
+    "top_blocked_agents": {
+      "gptbot": 19,
+      "google-extended": 17,
+      "ccbot": 16,
+      "applebot-extended": 16,
+      "claudebot": 15,
+      "meta-externalagent": 15,
+      "bytespider": 13,
+      "chatgpt-user": 4
+    },
+    "docs_streamed": 200000,
+    "capped": true
+  }
+}

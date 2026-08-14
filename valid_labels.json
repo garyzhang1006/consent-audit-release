@@ -1,0 +1,542 @@
+[
+  {
+    "id": 0,
+    "domain": "tezqin.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "empty Disallow under wildcard, allows all",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 1,
+    "domain": "lexpansion.lexpress.fr",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "not-robots: HTML page (has tdm-reservation meta tag, not a robots.txt body)",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 2,
+    "domain": "linux-community.de",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "CCBot and GPTBot both have Disallow: / before truncation; ChatGPT-User line cut off mid-value but already true",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 3,
+    "domain": "sharepointsocial.de",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "not-robots: HTML page",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 4,
+    "domain": "olympus.fr",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "CCBot listed in whitelist block with only specific-path Disallows (not root); trailing wildcard * Disallow:/ excludes agents already matched specifically",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 5,
+    "domain": "washingtonpost.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "anthropic-ai, Applebot-Extended, Bytespider, CCBot, Claude-Web, ClaudeBot, Diffbot, meta-externalagent, omgilibot, PerplexityBot all Disallow:/ (with Allow carve-outs for specific subpaths)",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 6,
+    "domain": "bandenenvelgenoutlet.nl",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents named",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 7,
+    "domain": "kreiszeitung.de",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "ChatGPT-User & PerplexityBot grouped but rule is Allow:/ plus path-specific Disallows; only wildcard * gets Disallow:/ which doesn't count",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 8,
+    "domain": "doctissimo.fr",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "CCBot block has only Crawl-delay, no Disallow rule at all",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 9,
+    "domain": "nli.ie",
+    "manual_block": true,
+    "confidence": "medium",
+    "note": "Bytespider 'Disallow: *' (not literal '/'); malformed/non-standard token, but by intent (comment 'Evil Robots') and Google-style wildcard parsing this is block-all -- judgment call, flag for review",
+    "parser_block": false,
+    "agree": false
+  },
+  {
+    "id": 10,
+    "domain": "haber46.com.tr",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "GPTBot/Google-Extended/CCBot/ClaudeBot/Applebot-Extended/Omgilibot/Diffbot/FacebookBot grouped with wildcard *, but shared rules only disallow specific paths, never root",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 11,
+    "domain": "hoylam.net",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Applebot-Extended, Bytespider, CCBot, ClaudeBot, Google-Extended, GPTBot, meta-externalagent all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 12,
+    "domain": "mootoroebike.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "not-robots: Chinese 'site suspended' HTML page",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 13,
+    "domain": "dantri.com.vn",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "all target agents only have Crawl-delay, no Disallow; final wildcard has only path disallows",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 14,
+    "domain": "fieldoftansy.blogspot.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 15,
+    "domain": "japan.zdnet.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "all target agents only disallow /article/, never root",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 16,
+    "domain": "5dollardinners.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents, wildcard empty disallow",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 17,
+    "domain": "egehaber.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "Turkish grouped-wildcard pattern, no root disallow",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 18,
+    "domain": "vg247.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "huge group incl. AI2Bot, anthropic-ai, Applebot-extended, Bytespider, CCBot, ChatGPT-User, Claude-Web, ClaudeBot, cohere-ai, Diffbot, GPTBot, meta-externalagent, PerplexityBot all share Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 19,
+    "domain": "lwl.org",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "ClaudeBot/GPTBot/meta-externalagent/Bytespider only have Crawl-delay; wildcard only disallows specific paths",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 20,
+    "domain": "aufeminin.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "CCBot only has Crawl-delay; no target agent has root disallow",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 21,
+    "domain": "iphonemod.net",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 22,
+    "domain": "moviemarket.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "huge group of target agents shares only Crawl-delay + specific-path disallows, no root",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 23,
+    "domain": "pcwelt.de",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Cloudflare pattern: Applebot-Extended/Bytespider/CCBot/ClaudeBot/Google-Extended/GPTBot/meta-externalagent Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 24,
+    "domain": "hastingsobserver.co.uk",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "anthropic-ai/Applebot-Extended/GPTBot/Google-Extended/ClaudeBot/Claude-Web/PerplexityBot/Bytespider all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 25,
+    "domain": "jediyuth.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "anthropic-ai/Applebot-Extended/Bytespider/CCBot/ClaudeBot/Google-Extended/GPTBot/meta-externalagent/omgili/omgilibot/PerplexityBot all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 26,
+    "domain": "hollywoodreporter.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "anthropic-ai/cohere-ai/omgili/omgilibot/Applebot-Extended/Bytespider/CCBot/ChatGPT-User/GPTBot/ClaudeBot/Claude-Web/Diffbot/FacebookBot/Google-Extended/Meta-ExternalAgent/PerplexityBot all Disallow:/ (each with a shopping-page carve-out)",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 27,
+    "domain": "derstandard.at",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Applebot-Extended/anthropic-ai/CCBot/ChatGPT-User/ClaudeBot/Claude-Web/Google-Extended/GPTBot/omgili/omgilibot/PerplexityBot/Bytespider/meta-externalagent all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 28,
+    "domain": "kamibahini.blogspot.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 29,
+    "domain": "ebookjapan.jp",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Google-Extended/GPTBot/ClaudeBot/Applebot-Extended/CCBot/Meta-ExternalAgent share Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 30,
+    "domain": "wa.de",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "ChatGPT-User & PerplexityBot grouped under Allow:/ + path disallows only; wildcard-only root disallow doesn't count",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 31,
+    "domain": "pleinelune.niceboard.com",
+    "manual_block": false,
+    "confidence": "low",
+    "note": "TRUNCATED at 6000 chars mid old-style scraper blocklist; no target AI agent visible before cutoff but cannot rule out a trailing AI-bot block (cf. linux-community.de pattern elsewhere in sample)",
+    "parser_block": true,
+    "agree": false
+  },
+  {
+    "id": 32,
+    "domain": "aydinpost.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "Turkish grouped-wildcard pattern, no root disallow",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 33,
+    "domain": "edoc.hu-berlin.de",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "ai.robots.txt-derived list: anthropic-ai/Applebot-Extended/Bytespider/CCBot/ChatGPT-User/Claude-Web/ClaudeBot/cohere-ai/Diffbot/FacebookBot/Google-Extended/GPTBot/omgili/omgilibot/PerplexityBot all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 34,
+    "domain": "th.airbnb.com",
+    "manual_block": false,
+    "confidence": "low",
+    "note": "TRUNCATED at 6000 chars mid YandexBot block; only Googlebot/Bingbot/YandexBot groups visible (path-specific only), no target AI agent visible before cutoff",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 35,
+    "domain": "adaletbiz.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "Turkish grouped-wildcard pattern, no root disallow",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 36,
+    "domain": "neraca.co.id",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Cloudflare pattern: Applebot-Extended/Bytespider/CCBot/ClaudeBot/Google-Extended/GPTBot/meta-externalagent Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 37,
+    "domain": "autobild.de",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "huge group incl AI2Bot/Applebot-Extended/Bytespider/CCBot/cohere-ai/Diffbot/omgili/omgilibot/Perplexity-User/PerplexityBot all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 38,
+    "domain": "kayak.fr",
+    "manual_block": false,
+    "confidence": "low",
+    "note": "TRUNCATED at 6000 chars mid Googlebot block; only wildcard * and Googlebot groups visible (path-specific only), no target AI agent visible before cutoff",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 39,
+    "domain": "haldaaditya.blogspot.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 40,
+    "domain": "zdnet.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Ziff Davis huge group incl AI2Bot/anthropic-ai/Applebot-extended/Bytespider/CCBot/ChatGPT-User/Claude-Web/ClaudeBot/cohere-ai/Diffbot/GPTBot/meta-externalagent/PerplexityBot all Disallow:/ (few page-level Allow exceptions); separate block also disallows Omgilibot",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 41,
+    "domain": "meoneile.ie",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "entire disallow-all block is commented out, no active directives",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 42,
+    "domain": "gamemonday.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "Cloudflare pattern: Applebot-Extended/Bytespider/CCBot/ClaudeBot/Google-Extended/GPTBot/meta-externalagent Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 43,
+    "domain": "tz.de",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "ChatGPT-User & PerplexityBot grouped under Allow:/ + path disallows only; wildcard-only root disallow doesn't count",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 44,
+    "domain": "sensaciones.de",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 45,
+    "domain": "khm.at",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 46,
+    "domain": "theregister.co.uk",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "GPTBot/ClaudeBot/anthropic-ai/Claude-Web/Google-Extended/Meta-ExternalAgent/Applebot-Extended/Bytespider/CCBot/cohere-ai/Diffbot/AI2Bot all Disallow:/ in explicit AI-training section; contrast: ChatGPT-User/PerplexityBot/Claude-User/Claude-SearchBot explicitly Allow:/ in AI-search section",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 47,
+    "domain": "aufildemma.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 48,
+    "domain": "ayolihatteman.blogspot.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 49,
+    "domain": "ntv.com.tr",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/anthropic-ai/PerplexityBot/cohere-ai all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 50,
+    "domain": "besthaber.com.tr",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 51,
+    "domain": "ovit-ks.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents, empty disallow",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 52,
+    "domain": "si.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "AI Crawlers section explicitly Allow:/ for GPTBot/OAI-SearchBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 53,
+    "domain": "schwarzwaelder-bote.de",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "GPTBot/CCBot/PerplexityBot/anthropic-ai/ChatGPT-User all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  },
+  {
+    "id": 54,
+    "domain": "ga.airbnb.ie",
+    "manual_block": false,
+    "confidence": "low",
+    "note": "TRUNCATED at 6000 chars mid YandexBot block, same template as th.airbnb.com; no target AI agent visible before cutoff",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 55,
+    "domain": "jp.wsj.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "ChatGPT-User/GPTBot/OAI-SearchBot part of huge grouped UA list whose shared rule is Allow:/ + path-specific disallows only; separate leading wildcard Disallow:/ doesn't count",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 56,
+    "domain": "krigler.eu",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents (Shopify template, only * and adsbot-google)",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 57,
+    "domain": "hamamlar.com",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "no target agents; leading whitespace/garbage lines before UA block",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 58,
+    "domain": "mwed.jp",
+    "manual_block": false,
+    "confidence": "high",
+    "note": "not-robots: New Relic JS loader / HTML page, not robots.txt",
+    "parser_block": false,
+    "agree": true
+  },
+  {
+    "id": 59,
+    "domain": "sonhaberler.com",
+    "manual_block": true,
+    "confidence": "high",
+    "note": "GPTBot/ClaudeBot/CCBot/Bytespider/Diffbot all Disallow:/",
+    "parser_block": true,
+    "agree": true
+  }
+]
